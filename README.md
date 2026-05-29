@@ -22,7 +22,7 @@ Product Category has an effect on the profit made
 Other factors also have an impact on the profit made
 ## Machine Learning Model
 After checking linearity , A linear regression model was used to predict profit.
-The features: Sales, Discount, Quantity, Product Category
+The features: Sales, Discount, Quantity, Product Category were used
 ## Evaluation metrics
 R2 Score: 0.72
 Mean Squared error evaluated
