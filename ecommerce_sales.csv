@@ -1,15 +1,11 @@
-# Clone your repository 
-git clone https://github.com/mize04/ecommerce-sales-analysis.git
-cd ecommerce-sales-analysis
+# Copy your actual CSV file to the repo
+cp "C:\Users\USER\OneDrive\Desktop\Ecommerce_Sales_Data_2024_2025.csv" ecommerce_sales.csv
 
-# Copy your files 
-"C:\Users\USER\OneDrive\Desktop\Ecommerce_Sales_Data_2024_2025.csv"
+# Properly stage it
+git add ecommerce_sales.csv
 
-# Stage the changes
-git ecommerce_sales.csv
+# Commit with a clear message
+git commit -m "Add ecommerce sales data"
 
-# Commit
-git commit -m "Add Ecommerce_Sales_Data_2025_2025.csv to ecommerce_sales.csv"
-
-# Push to GitHub
-git push origin main
+# Push to the data branch (or main, depending on your workflow)
+git push origin data
