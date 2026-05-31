@@ -1,11 +1,1 @@
-# Copy your actual CSV file to the repo
-cp "C:\Users\USER\OneDrive\Desktop\Ecommerce_Sales_Data_2024_2025.csv" ecommerce_sales.csv
 
-# Properly stage it
-git add ecommerce_sales.csv
-
-# Commit with a clear message
-git commit -m "Add ecommerce sales data"
-
-# Push to the data branch (or main, depending on your workflow)
-git push origin data
