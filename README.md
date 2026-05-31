@@ -1,7 +1,14 @@
 # ecommerce-sales-analysis
 E-Commerce sales data analysis and profit prediction using python and machine learning
 ## Project overview
-This project analyzes e-commerce sales data to identify factors affecting profit and develop a predictive model using Linear Regression
+This project analyzes e-commerce sales data to identify factors affecting profit and develop a predictive model using Linear Regression to predict profit based on different features such as: sales, Discount, Quantity, Product Category
+This project includes:
+Data cleaning
+Data visualization
+Correlation analysis
+Linear Regression modelling
+Model Evaluation
+Residual Analysis
 ## Objective
 To analyze sales and profit Trends
 To investigate the effects of discount on profit
@@ -11,6 +18,7 @@ Develop a predictive machine learning model
 Python
 Pandas
 Matplotlib
+Numpy
 Seaborn
 Sci-kit Learn
 Vs Code
@@ -26,10 +34,12 @@ The features: Sales, Discount, Quantity, Product Category were used
 ## Evaluation metrics
 R2 Score: 0.72
 Mean Squared error evaluated
-Residual Evaluated
-## Interpretation
- The residual plot showed signs of heteroscedasticity. That is the residuals are more spread out with increasing predicted profit values. This implies the model prediction errors were larger for higher profit products. The variance in errors suggest that additional factors or more advanced models may improve prediction performance.
+Residual plot
+## Key Insights
+The residual plot showed signs of heteroscedasticity. That is the residuals are more spread out with increasing predicted profit values. This implies the model prediction errors were larger for higher profit products. The variance in errors suggest that additional factors or more advanced models may improve prediction performance.
  ## Author
  Mwamize Khalfan
+ Computer Science Student
+ Data Scientist
 
 
